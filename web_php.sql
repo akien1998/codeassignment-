@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Aug 28, 2019 at 03:32 PM
+-- Generation Time: Aug 28, 2019 at 07:49 PM
 -- Server version: 10.4.6-MariaDB
 -- PHP Version: 7.1.31
 
@@ -168,13 +168,7 @@ CREATE TABLE `tbl_order` (
 --
 
 INSERT INTO `tbl_order` (`orID`, `productID`, `productName`, `customerID`, `quantity`, `price`, `productImage`, `dateOrder`, `orStatus`) VALUES
-(4, 1, 'hehe', 2, 3, 100, 'c6264f0b4f.jpg', '2019-08-26 16:13:55', 2),
-(5, 6, 'kien', 2, 1, 1000, '93a51605ad.jpg', '2019-08-26 16:13:55', 1),
-(7, 6, 'kien', 2, 4, 4000, '93a51605ad.jpg', '2019-08-26 16:13:55', 1),
-(26, 4, 'kkkskks', 3, 1, 1000, 'a7d1f176f4.jpg', '2019-08-27 22:18:16', 2),
-(27, 6, 'kien', 3, 1, 1000, '93a51605ad.jpg', '2019-08-27 22:34:38', 2),
-(28, 4, 'kkkskks', 3, 1, 1000, 'c12758dabe.jpg', '2019-08-28 05:37:19', 0),
-(29, 9, 'macbook', 3, 1, 2000, 'd5ae419857.jpeg', '2019-08-28 06:11:49', 0);
+(30, 9, 'macbook', 3, 1, 2000, 'd5ae419857.jpeg', '2019-08-28 17:47:01', 1);
 
 --
 -- Indexes for dumped tables
@@ -254,7 +248,7 @@ ALTER TABLE `tbl_admin`
 -- AUTO_INCREMENT for table `tbl_cart`
 --
 ALTER TABLE `tbl_cart`
-  MODIFY `cartID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=72;
+  MODIFY `cartID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=73;
 
 --
 -- AUTO_INCREMENT for table `tbl_Customer`
@@ -266,7 +260,7 @@ ALTER TABLE `tbl_Customer`
 -- AUTO_INCREMENT for table `tbl_order`
 --
 ALTER TABLE `tbl_order`
-  MODIFY `orID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
+  MODIFY `orID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

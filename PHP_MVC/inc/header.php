@@ -59,7 +59,6 @@ $cus  = new customer();
                             <li><a href="#"><i class="fa fa-user"></i> My Account</a></li>
                             <li><a href="#"><i class="fa fa-heart"></i> Wishlist</a></li>
                             <li><a href="cart.php"><i class="fa fa-user"></i> My Cart</a></li>
-                            <li><a href="checkout.php"><i class="fa fa-user"></i> Checkout</a></li>
 <?php
 if (isset($_GET['cusID'])) {
 	$delCart = $cart->detele_cart();
@@ -151,8 +150,6 @@ if ($getcheck) {
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="index.php">Home</a></li>
-                    <li><a href="shop.php">Shop page</a></li>
-                    <li><a href="single-product.php">Single product</a></li>
 <?php
 $Checkcart = $cart->check_cart();
 if ($loginCheck == false) {

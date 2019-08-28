@@ -93,6 +93,26 @@ Session::checkSession();
             </div>
           </div>
         </li>
+         <hr class="sidebar-divider">
+
+        <!-- Heading -->
+        <div class="sidebar-heading">
+
+        </div>
+
+        <!-- Nav Item - Pages Collapse Menu -->
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
+            <i class="fas fa-fw fa-folder"></i>
+            <span>Brand</span>
+          </a>
+          <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+              <a class="collapse-item" href="AddBrand.php">Add brand</a>
+              <a class="collapse-item" href="brandList.php">Show brand</a>
+            </div>
+          </div>
+        </li>
         <div class="sidebar-heading">
 
         </div>
